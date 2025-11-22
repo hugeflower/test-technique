@@ -1,0 +1,17 @@
+{
+  "name": "untitled",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "run index": "npx ts-node src/intervals.ts",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3",
+    "vitest": "^4.0.13"
+  },
+  "private": true
+}
